@@ -1,0 +1,53 @@
+/*----- Sidebar responsive classes starts -----*/
+
+@media only screen and (max-width: 950px) {
+    .sidebar-container {
+        display: none;
+    }
+
+    .mobile-sidebar-container {
+        height: 70px;
+        position: fixed;
+        bottom: 0;
+        z-index: 99;
+    }
+}
+
+/*----- Sidebar responsive classes ends -----*/
+
+
+/*----- Dashboard responsive classes starts -----*/
+
+
+@media only screen and (max-width: 650px) {
+    .recent-transaction {
+        max-width: none !important;
+        width: 100% !important;
+        min-width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .user-icon {
+        display: none;
+    }
+
+    .account-summary-container {
+        gap: 0rem !important;
+    }
+
+}
+
+@media only screen and (min-width: 500px) {
+    .account-summary-container {
+        gap: 3rem !important;
+    }
+}
+
+/*----- Dashboard responsive classes ends -----*/
